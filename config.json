@@ -1,0 +1,22 @@
+﻿{
+    "dbName": "PKAMS_API",
+    "dbConfig": {
+        "server": "PRAVEEN",
+        "options": {
+            "port": 1433,
+            "trustServerCertificate": true,
+            "trustedConnection":true,
+            "enableArithAort":true,
+            "instancename":"",
+            "encrypt": true
+        },
+        "authentication": {
+            "type": "default",
+            "options": {
+                "userName": "sa",
+                "password": "pass@123"
+            }
+        }
+    },
+    "secret": "PKAMS_API"
+}
